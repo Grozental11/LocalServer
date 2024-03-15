@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <style>
+            body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
+            .login-container { max-width: 300px; padding: 20px; background-color: white; margin: 50px auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+            .form-input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+            .form-input[type=submit] { background-color: #333; color: white; cursor: pointer; }
+            .form-input[type=submit]:hover { background-color: #555; }
+            .form-label { display: block; margin-top: 20px; }
+            h1 { text-align: center; color: #333; }
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="" method="post">
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" id="username" name="username" class="form-input">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" id="password" name="password" class="form-input">
+                <input type="submit" value="Login" class="form-input">
+            </form>
+        </div>
+    </body>
+</html>
